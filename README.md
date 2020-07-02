@@ -19,7 +19,7 @@ What's working
 - Everything else
 - Full RX480 Hardware Acceleration
 
-What's working
+What's not working
 - Not yet found
 
 macOS Screenshot
