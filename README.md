@@ -19,7 +19,7 @@ What's working
 - Everything else
 - Full RX480 Hardware Acceleration
 
-What's not working
+What's not working (WIP)
 - Onboard audio ALC887
 - Booting into Windows (ACPI_BIOS_ERROR)
 
