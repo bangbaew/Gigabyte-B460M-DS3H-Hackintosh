@@ -15,8 +15,6 @@ What's working
 - Handoff & Universal Clipboard
 - iMessages & Other iServices
 - iGPU Acceleration
-- Dual booting Windows & macOS on same SSD (rename bootmgfw.efi to bootmgfw-orig.efi)
-- Everything else
 - Full RX480 Hardware Acceleration
 
 What's not working (WIP)
