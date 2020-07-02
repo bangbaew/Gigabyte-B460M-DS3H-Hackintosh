@@ -20,7 +20,8 @@ What's working
 - Full RX480 Hardware Acceleration
 
 What's not working
-- Not yet found
+- Onboard audio ALC887
+- Booting into Windows (ACPI_BIOS_ERROR)
 
 macOS Screenshot
 ![macos](https://i.ibb.co/c6xV3Wq/Screen-Shot-2563-07-02-at-12-17-02.png)
