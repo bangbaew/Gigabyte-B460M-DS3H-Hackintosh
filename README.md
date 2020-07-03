@@ -17,9 +17,9 @@ What's working
 - iGPU Acceleration
 - Full RX480 Hardware Acceleration
 
-What's not working (WIP)
-- Onboard audio ALC887
-- Booting into Windows (ACPI_BIOS_ERROR)
+What's not working
+- Onboard audio ALC887 (Not correctly configured)
+- Booting into Windows from OpenCore (ACPI_BIOS_ERROR), use Windows Boot Manager from BIOS instead
 
 macOS Screenshot
 ![macos](https://i.ibb.co/c6xV3Wq/Screen-Shot-2563-07-02-at-12-17-02.png)
