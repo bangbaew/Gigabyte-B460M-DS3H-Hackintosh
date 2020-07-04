@@ -6,7 +6,7 @@ My Build
 - GPU: XFX Radeon RX480 4GB
 - SSD: Transcend MTE220S M.2 NVMe 512GB (TS512GMTE220S)
 - Audio: Realtek ALC887
-- WLAN & Blutooth: DW1820A (BCM94350ZAE)
+- WLAN & Blutooth: DW1820A CN-096JNT(BCM94350ZAE)
 - OpenCore Version: 0.6.0
 - SMBIOS: iMacPro1,1
 
