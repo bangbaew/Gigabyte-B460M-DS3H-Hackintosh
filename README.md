@@ -1,5 +1,5 @@
 My Build
-- OS: macOS Catalina 10.15.5 Supplemental Update (19F101)
+- OS: macOS Catalina 10.15.6 (19G73)
 - CPU: Intel Core i5-10400
 - RAM: Kingston HyperX Fury 16GB DDR4 @2666 Mhz
 - MB: Gigabyte B460M-DS3H (Bios F3)
