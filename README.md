@@ -1,5 +1,5 @@
 My Build
-- OS: macOS Catalina 10.15.6 (19G73)
+- OS: macOS Catalina 10.15.7 (19H2)
 - CPU: Intel Core i5-10400
 - RAM: Kingston HyperX Fury 16GB DDR4 @2666 Mhz + Kingston HyperX Predator RGB 16GB DDR4 @2666 Mhz
 - MB: Gigabyte B460M-DS3H (Bios F3)
@@ -11,7 +11,8 @@ My Build
 - SMBIOS: iMacPro1,1
 
 What's working
-- Onboard Audio ALC887 (Using layout-id = 5, Thanks to elluno91)
+- Onboard Audio ALC887 (Solution: Using layout-id = 5, Thanks to elluno91)
+- USB 3.0 (Solution: Change from A2AF to A3AF in both USBInjectAll.kext and XHCI-unsupported.kext, Thanks to elluno91)
 - AirDrop
 - Handoff & Universal Clipboard
 - iMessages & Other iServices
@@ -19,7 +20,6 @@ What's working
 - Full RX480 Hardware Acceleration
 
 What's not working
-- USB 3.0 devices on 3.0 ports
 - Booting into Windows from OpenCore (ACPI_BIOS_ERROR), use Windows Boot Manager from BIOS instead
 
 macOS Screenshot
