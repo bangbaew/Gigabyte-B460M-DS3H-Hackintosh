@@ -14,7 +14,7 @@ What's working
 - Onboard Audio ALC887
 (Solution: Use layout-id = 5, Thanks to elluno91)
 - USB 3.0
-(Solution: Change from A2AF to A3AF in USBInjectAll.kext and XHCI-unsupported.kext, Thanks to elluno91)
+(Solution: Change A2AF to A3AF in USBInjectAll.kext and XHCI-unsupported.kext, Thanks to elluno91)
 - AirDrop
 - Handoff & Universal Clipboard
 - iMessages & Other iServices
