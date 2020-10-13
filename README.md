@@ -11,6 +11,7 @@ My Build
 - SMBIOS: iMacPro1,1
 
 What's working
+- Onboard Audio ALC887 (Using layout-id = 5, Thanks to elluno91)
 - AirDrop
 - Handoff & Universal Clipboard
 - iMessages & Other iServices
@@ -18,7 +19,7 @@ What's working
 - Full RX480 Hardware Acceleration
 
 What's not working
-- Onboard audio ALC887 (Not correctly configured)
+- USB 3.0 devices on 3.0 ports
 - Booting into Windows from OpenCore (ACPI_BIOS_ERROR), use Windows Boot Manager from BIOS instead
 
 macOS Screenshot
