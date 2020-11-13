@@ -1,5 +1,5 @@
 My Build
-- OS: macOS Catalina 10.15.7 (19H2)
+- OS: macOS Big Sur 11.0.1 (20B29)
 - CPU: Intel Core i5-10400
 - RAM: Kingston HyperX Fury 16GB DDR4 + Kingston HyperX Predator RGB 16GB DDR4 @2666 Mhz
 - MB: Gigabyte B460M-DS3H (Bios F3)
@@ -27,4 +27,5 @@ What's not working
 - Booting into Windows from OpenCore (ACPI_BIOS_ERROR), use Windows Boot Manager from BIOS instead
 
 macOS Screenshot
-![macos](https://i.ibb.co/c6xV3Wq/Screen-Shot-2563-07-02-at-12-17-02.png)
+![catalina](https://i.ibb.co/c6xV3Wq/Screen-Shot-2563-07-02-at-12-17-02.png)
+![bigsur](https://i.ibb.co/ynPBsHR/Screen-Shot-2563-11-13-at-13-49-14.png)
