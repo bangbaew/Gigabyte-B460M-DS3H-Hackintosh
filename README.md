@@ -7,7 +7,7 @@ My Build
 - SSD: Transcend MTE220S M.2 NVMe 512GB (TS512GMTE220S)
 - Audio: Realtek ALC887
 - WLAN & Blutooth: DW1820A CN-096JNT (BCM94350ZAE)
-- OpenCore Version: 0.6.3
+- OpenCore Version: 0.6.4
 - SMBIOS: iMacPro1,1
 
 What's working
@@ -23,8 +23,10 @@ What's working
 - iGPU Acceleration
 - Full RX480 Hardware Acceleration
 
-What's not working
-- Booting into Windows from OpenCore (ACPI_BIOS_ERROR), use Windows Boot Manager from BIOS instead
+What's not working / Known bugs
+- System freezes when plugging 3.5mm jack at back panel (Internal Speakers), No problem if you plugged in since startup but if you plug out and plug in again, it freezes.
+- Booting Windows from OpenCore picker (BSOD: ACPI_BIOS_ERROR), use Windows Boot Manager from BIOS instead
+So I disabled boot picker as it is not being used.
 
 macOS Screenshot
 ![catalina](https://i.ibb.co/c6xV3Wq/Screen-Shot-2563-07-02-at-12-17-02.png)
