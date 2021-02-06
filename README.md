@@ -1,5 +1,5 @@
 My Build
-- OS: macOS Big Sur 11.0.1 (20B29)
+- OS: macOS Big Sur 11.2 (20D64)
 - CPU: Intel Core i5-10400
 - RAM: Kingston HyperX Fury 16GB DDR4 + Kingston HyperX Predator RGB 16GB DDR4 @2666 Mhz
 - MB: Gigabyte B460M-DS3H (Bios F3)
@@ -7,7 +7,7 @@ My Build
 - SSD: Transcend MTE220S M.2 NVMe 512GB (TS512GMTE220S)
 - Audio: Realtek ALC887
 - WLAN & Blutooth: DW1820A CN-096JNT (BCM94350ZAE)
-- OpenCore Version: 0.6.4
+- OpenCore Version: 0.6.6
 - SMBIOS: iMacPro1,1
 
 What's working
