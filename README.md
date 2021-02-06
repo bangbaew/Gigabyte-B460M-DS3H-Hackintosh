@@ -24,7 +24,6 @@ What's working
 - Full RX480 Hardware Acceleration
 
 What's not working / Known bugs
-- System freezes when plugging 3.5mm jack at back panel (Internal Speakers), No problem if you plugged in since startup but if you plug out and plug in again, it freezes.
 - Booting Windows from OpenCore picker (BSOD: ACPI_BIOS_ERROR), use Windows Boot Manager from BIOS instead
 So I disabled boot picker as it is not being used.
 
