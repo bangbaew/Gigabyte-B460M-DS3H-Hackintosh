@@ -17,7 +17,8 @@ What's working
 (Solution: Change A2AF to A3AF in USBInjectAll.kext and XHCI-unsupported.kext, Thanks to elluno91)
 - Sleep / Wake
 (Solution: Fix sleepimage with Hackintool)
-- 5Ghz 802.11ac Wi-Fi (Solution: add "-brcmfxbeta" into boot-args)
+- 5Ghz 802.11ac Wi-Fi
+- Bluetooth
 - AirDrop
 - Handoff & Universal Clipboard
 - iMessages & Other iServices
