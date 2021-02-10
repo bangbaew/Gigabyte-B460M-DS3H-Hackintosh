@@ -1,5 +1,5 @@
 My Build
-- OS: macOS Big Sur 11.0.1 (20B29)
+- OS: macOS Big Sur 11.2 (20D64)
 - CPU: Intel Core i5-10400
 - RAM: Kingston HyperX Fury 16GB DDR4 + Kingston HyperX Predator RGB 16GB DDR4 @2666 Mhz
 - MB: Gigabyte B460M-DS3H (Bios F3)
@@ -7,7 +7,7 @@ My Build
 - SSD: Transcend MTE220S M.2 NVMe 512GB (TS512GMTE220S)
 - Audio: Realtek ALC887
 - WLAN & Blutooth: DW1820A CN-096JNT (BCM94350ZAE)
-- OpenCore Version: 0.6.4
+- OpenCore Version: 0.6.6
 - SMBIOS: iMacPro1,1
 
 What's working
@@ -17,6 +17,7 @@ What's working
 (Solution: Change A2AF to A3AF in USBInjectAll.kext and XHCI-unsupported.kext, Thanks to elluno91)
 - Sleep / Wake
 (Solution: Fix sleepimage with Hackintool)
+- 5Ghz 802.11ac Wi-FI (Solution: add "-brcmfxbeta" into boot-args)
 - AirDrop
 - Handoff & Universal Clipboard
 - iMessages & Other iServices
@@ -24,7 +25,6 @@ What's working
 - Full RX480 Hardware Acceleration
 
 What's not working / Known bugs
-- System freezes when plugging 3.5mm jack at back panel (Internal Speakers), No problem if you plugged in since startup but if you plug out and plug in again, it freezes.
 - Booting Windows from OpenCore picker (BSOD: ACPI_BIOS_ERROR), use Windows Boot Manager from BIOS instead
 So I disabled boot picker as it is not being used.
 
