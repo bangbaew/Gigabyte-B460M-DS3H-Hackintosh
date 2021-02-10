@@ -26,6 +26,7 @@ What's working
 - Full RX480 Hardware Acceleration
 
 What's not working / Known bugs
+- DW1820A can't see Wi-Fi on channel 36
 - Booting Windows from OpenCore picker (BSOD: ACPI_BIOS_ERROR), use Windows Boot Manager from BIOS instead
 So I disabled boot picker as it is not being used.
 
