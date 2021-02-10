@@ -1,5 +1,5 @@
 My Build
-- OS: macOS Big Sur 11.2 (20D64)
+- OS: macOS Big Sur 11.2.1 (20D74)
 - CPU: Intel Core i5-10400
 - RAM: Kingston HyperX Fury 16GB DDR4 + Kingston HyperX Predator RGB 16GB DDR4 @2666 Mhz
 - MB: Gigabyte B460M-DS3H (Bios F3)
