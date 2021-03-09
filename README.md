@@ -17,16 +17,16 @@ What's working
 (Solution: Change A2AF to A3AF in USBInjectAll.kext and XHCI-unsupported.kext, Thanks to elluno91)
 - Sleep / Wake
 (Solution: Fix sleepimage with Hackintool)
-- 5Ghz 802.11ac Wi-Fi
+- Wi-Fi
 - Bluetooth
 - AirDrop
 - Handoff & Universal Clipboard
 - iMessages & Other iServices
-- iGPU Acceleration
+- iGPU Acceleration (Change SMBIOS to iMac20,1 and patch Comet Lake framebuffer)
 - Full RX480 Hardware Acceleration
 
 What's not working / Known bugs
-- DW1820A can't see Wi-Fi on channel 36
+- DW1820A can't see 5Ghz Wi-Fi on channel 36
 - Booting Windows from OpenCore picker (BSOD: ACPI_BIOS_ERROR), use Windows Boot Manager from BIOS instead
 So I disabled boot picker as it is not being used.
 
