@@ -22,7 +22,7 @@ What's working
 - AirDrop
 - Handoff & Universal Clipboard
 - iMessages & Other iServices
-- iGPU Acceleration (Change SMBIOS to iMac20,1 and patch Comet Lake framebuffer)
+- iGPU Acceleration (Change SMBIOS to iMac20,1 and follow Comet Lake framebuffer patching: https://youtu.be/4EU8oT0-Ea8)
 - Full RX480 Hardware Acceleration
 
 What's not working / Known bugs
