@@ -8,7 +8,7 @@ My Build
 - Audio: Realtek ALC887
 - WLAN & Blutooth: DW1820A CN-096JNT (BCM94350ZAE)
 - OpenCore Version: 0.6.6
-- SMBIOS: iMacPro1,1
+- SMBIOS: iMacPro1,1 / iMac20,1
 
 What's working
 - Onboard Audio ALC887
