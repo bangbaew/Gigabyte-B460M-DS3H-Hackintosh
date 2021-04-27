@@ -28,7 +28,8 @@ What's working
 What's not working / Known bugs
 - DW1820A can't see 5Ghz Wi-Fi on channel 36
 - Booting Windows from OpenCore picker (BSOD: ACPI_BIOS_ERROR), use Windows Boot Manager from BIOS instead
-So I disabled boot picker as it is not being used.
+So I disabled boot picker as it is not being used, if you want to disable from OpenCore, disable DSDT.aml ACPI patch.
+- Using HDMI on iGPU (Intel UHD 630) gives black screen.
 
 macOS Screenshot
 ![catalina](https://i.ibb.co/c6xV3Wq/Screen-Shot-2563-07-02-at-12-17-02.png)
