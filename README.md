@@ -1,14 +1,14 @@
 My Build
-- OS: macOS Big Sur 11.2.1 (20D74)
-- CPU: Intel Core i5-10400
+- OS: macOS Big Sur 11.3 (20E232)
+- CPU: Intel Core i5-10400 / i7-10700
 - RAM: Kingston HyperX Fury 16GB DDR4 + Kingston HyperX Predator RGB 16GB DDR4 @2666 Mhz
-- MB: Gigabyte B460M-DS3H (Bios F3)
+- MB: Gigabyte B460M-DS3H (Bios F5d)
 - GPU: XFX Radeon RX480 4GB
 - SSD: Transcend MTE220S M.2 NVMe 512GB (TS512GMTE220S)
 - Audio: Realtek ALC887
 - WLAN & Blutooth: DW1820A CN-096JNT (BCM94350ZAE)
-- OpenCore Version: 0.6.6
-- SMBIOS: iMacPro1,1 / iMac20,1
+- OpenCore Version: 0.6.8
+- SMBIOS: iMac20,1
 
 What's working
 - Onboard Audio ALC887
@@ -22,13 +22,12 @@ What's working
 - AirDrop
 - Handoff & Universal Clipboard
 - iMessages & Other iServices
-- iGPU Acceleration (Change SMBIOS to iMac20,1 and follow Comet Lake framebuffer patching: https://youtu.be/4EU8oT0-Ea8)
+- iGPU Acceleration (Solution: Use SMBIOS iMac20,1)
 - Full RX480 Hardware Acceleration
+- Dual Boot Windows from OpenCore (Disable DSDT.aml)
 
 What's not working / Known bugs
 - DW1820A can't see 5Ghz Wi-Fi on channel 36
-- Booting Windows from OpenCore picker (BSOD: ACPI_BIOS_ERROR), use Windows Boot Manager from BIOS instead
-So I disabled boot picker as it is not being used, if you want to disable from OpenCore, disable DSDT.aml ACPI patch.
 - Using HDMI on iGPU (Intel UHD 630) gives black screen.
 
 macOS Screenshot
