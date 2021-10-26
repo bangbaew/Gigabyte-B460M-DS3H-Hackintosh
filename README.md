@@ -10,7 +10,7 @@ My Build
 - OpenCore Version: 0.7.4
 - SMBIOS: iMac20,1
 
-*** Please change your SMBIOS serial number after installing my EFI folders**
+**Please change your SMBIOS serial number after installing my EFI folders**
 
 What's working
 - Onboard Audio ALC887
