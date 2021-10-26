@@ -1,5 +1,5 @@
 My Build
-- OS: macOS Big Sur 11.3 (20E232)
+- OS: macOS Monterey 12.0.1 (21A559)
 - CPU: Intel Core i5-10400 / i7-10700
 - RAM: Kingston HyperX Fury 16GB DDR4 + Kingston HyperX Predator RGB 16GB DDR4 @2666 Mhz
 - MB: Gigabyte B460M-DS3H (Bios F5d)
@@ -7,7 +7,7 @@ My Build
 - SSD: Transcend MTE220S M.2 NVMe 512GB (TS512GMTE220S)
 - Audio: Realtek ALC887
 - WLAN & Blutooth: DW1820A CN-096JNT (BCM94350ZAE)
-- OpenCore Version: 0.6.8
+- OpenCore Version: 0.7.4
 - SMBIOS: iMac20,1
 
 What's working
@@ -33,3 +33,4 @@ What's not working / Known bugs
 macOS Screenshot
 ![catalina](https://i.ibb.co/c6xV3Wq/Screen-Shot-2563-07-02-at-12-17-02.png)
 ![bigsur](https://i.ibb.co/ynPBsHR/Screen-Shot-2563-11-13-at-13-49-14.png)
+![monterey](https://user-images.githubusercontent.com/29559559/138925063-5562a352-800e-4b58-b499-8778b3aad1dc.png)
