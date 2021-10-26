@@ -9,6 +9,7 @@ My Build
 - WLAN & Blutooth: DW1820A CN-096JNT (BCM94350ZAE)
 - OpenCore Version: 0.7.4
 - SMBIOS: iMac20,1
+
 **Please change your SMBIOS serial number after installing my EFI folders**
 
 What's working
