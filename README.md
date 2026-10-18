@@ -1,38 +1,59 @@
-My Build
-- OS: macOS Monterey 12.0.1 (21A559)
-- CPU: Intel Core i5-10400 / i7-10700
-- RAM: Kingston HyperX Fury 16GB DDR4 + Kingston HyperX Predator RGB 16GB DDR4 @2666 Mhz
-- MB: Gigabyte B460M-DS3H (Bios F5d)
-- GPU: XFX Radeon RX480 4GB
-- SSD: Transcend MTE220S M.2 NVMe 512GB (TS512GMTE220S)
-- Audio: Realtek ALC887
-- WLAN & Blutooth: DW1820A CN-096JNT (BCM94350ZAE)
-- OpenCore Version: 0.7.4
-- SMBIOS: iMac20,1
+# Gigabyte B460M DS3H Hackintosh
 
-**Please change your SMBIOS serial number after installing my EFI folders**
+OpenCore EFI for the **Gigabyte B460M DS3H** (Comet Lake). Updated to current OpenCore/kexts.
 
-What's working
-- Onboard Audio ALC887
-(Solution: Use layout-id = 5, Thanks to elluno91)
+## Hardware
+- **CPU:** Intel Core i5-10400 / i7-10700 (Comet Lake)
+- **RAM:** Kingston HyperX Fury 16GB DDR4 + Kingston HyperX Predator RGB 16GB DDR4 @ 2666 MHz
+- **Motherboard:** Gigabyte B460M DS3H (BIOS F5d or newer)
+- **GPU:** XFX Radeon RX 480 4GB (primary) + Intel UHD Graphics 630 (now ASUS TUF Gaming Radeon RX 6900 XT)
+- **SSD:** Transcend MTE220S M.2 NVMe 512GB (TS512GMTE220S)
+- **Audio:** Realtek ALC887
+- **Network:** Realtek RTL8111 (onboard) + DW1820A CN-096JNT (BCM94350ZAE) Wi-Fi/BT (now Fenvi FV-T919 BCM94360CD)
+- **Bootloader:** OpenCore 1.0.5
+- **SMBIOS:** iMac20,1
+- **Target macOS:** Sonoma (14) and newer (Sequoia 15 supported, kernel >= 23.x)
+
+## Important
+**Please change your SMBIOS serial number / MLB / ROM after installing this EFI folder.** Do not use the serials shipped in the config.
+
+## What's working
+- Onboard Audio ALC887 (layout-id = 5)
 - USB 3.0
-(Solution: Change A2AF to A3AF in USBInjectAll.kext and XHCI-unsupported.kext, Thanks to elluno91)
 - Sleep / Wake
-(Solution: Fix sleepimage with Hackintool)
-- Wi-Fi
+- Wi-Fi (Sonoma+ path via IOSkywalkFamily + IO80211FamilyLegacy)
 - Bluetooth
-- AirDrop
-- Handoff & Universal Clipboard
-- iMessages & Other iServices
-- iGPU Acceleration (Solution: Use SMBIOS iMac20,1)
-- Full RX480 Hardware Acceleration
-- Dual Boot Windows from OpenCore (Disable DSDT.aml)
+- AirDrop, Handoff & Universal Clipboard
+- iMessage & other iServices
+- iGPU acceleration (SMBIOS iMac20,1)
+- Full RX 480 hardware acceleration (`agdpmod=pikera`)
+- Dual boot Windows from OpenCore (disable DSDT.aml)
 
-What's not working / Known bugs
-- DW1820A can't see 5Ghz Wi-Fi on channel 36
-- Using HDMI on iGPU (Intel UHD 630) gives black screen.
+## Known issues / Not working
+- DW1820A cannot see 5 GHz Wi-Fi on channel 36 (Solved by Fenvi FV-T919)
+- Using HDMI on the iGPU (Intel UHD 630) gives a black screen
 
-macOS Screenshot
-![catalina](https://i.ibb.co/c6xV3Wq/Screen-Shot-2563-07-02-at-12-17-02.png)
-![bigsur](https://i.ibb.co/ynPBsHR/Screen-Shot-2563-11-13-at-13-49-14.png)
-![monterey](https://user-images.githubusercontent.com/29559559/138925063-5562a352-800e-4b58-b499-8778b3aad1dc.png)
+## Included kexts
+| Kext | Version |
+| --- | --- |
+| Lilu | 1.7.1 |
+| VirtualSMC | 1.3.7 |
+| WhateverGreen | 1.7.0 |
+| AppleALC | 1.9.6 |
+| NVMeFix | 1.1.0 |
+| RealtekRTL8111 | 3.0.0 |
+| USBInjectAll | 0.8.1 |
+| XHCI-unsupported | 0.9.2 |
+| VoodooPS2Controller | 2.3.7 |
+| AirportBrcmFixup | 2.2.0 |
+| BrcmPatchRAM3 | 2.5.9 |
+| BrcmBluetoothInjector | 2.6.0 |
+| IOSkywalkFamily | 1.0 |
+| IO80211FamilyLegacy | 12.0 |
+| AMFIPass | 1.4.1 |
+| CtlnaAHCIPort | 341.0.2 |
+
+## Notes
+- Broadcom Wi-Fi on Sonoma/Sequoia uses `IOSkywalkFamily` + `IO80211FamilyLegacy` + `AMFIPass` (boot-arg `amfi=0x80`).
+- Audio uses `layout-id = 5`.
+- For dual-booting Windows, disable `DSDT.aml` as needed.
